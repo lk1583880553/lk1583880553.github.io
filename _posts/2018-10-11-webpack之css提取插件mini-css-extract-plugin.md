@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      webpack之css提取插件
-subtitle:   mini-css-extract-plugin
+title:      mini-css-extract-plugin
+subtitle:   webpack4.0之css提取插件
 date:       2018-10-11
 author:     Mr Kang
 header-img: img/post-bg-building.jfif
@@ -21,20 +21,22 @@ tags:
 
    只能用在webpack4中，对比另一个插件 extract-text-webpack-plugin有点:
    
-    - 异步加载
-    - 不重复编译，性能更好
-    - 更容易使用
-    - 只针对CSS
+- 异步加载
+- 不重复编译，性能更好
+- 更容易使用
+- 只针对CSS
 
-    目前缺失功能，HMR。
+目前缺失功能，HMR。
 
-    安装：
+安装：
 
 ```
 yarn add -D mini-css-extract-plugin
 
 ```
-    使用:
+
+使用:
+
 
 ```
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
@@ -180,7 +182,7 @@ module.exports = {
 
 ```
 
->根据entry提取CSS
+>根据 entry提取CSS
 
 可以根据webpack 的entry name来提取CSS，这对你动态引入路由，却想依据entry保存打包的CSS的情况十分有用。这也解决了ExtractTextPlugin中CSS重复的问题
 
