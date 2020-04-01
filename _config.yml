@@ -4,10 +4,10 @@ SEOTitle: 刘康的博客 | Kang Blog
 header-img: img/post-bg-desk.jpg
 email: 18337026860@163.com
 description: "Every failure is leading towards success!"
-keyword: "Kang, Kang Blog, 刘康的博客, liukang, 刘康, WepApp Vue React Wexx"
+keyword: "Kang, Kang Blog, 刘康的博客, luckykang, 刘康, WepApp Vue React Wexx"
 url: "http://luckykang.cn"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/lk1583880553/lk1583880553.github.io.git" # you code repository
+github_repo: "https://github.com/lucky-kang/lucky-kang.github.io" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -19,9 +19,9 @@ sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's us
 # SNS settings
 RSS: false
 # weibo_username:   LiuKang111
-zhihu_username:     Mr康先生
-github_username:    lk1583880553
-jianshu_username:   Mr康先生
+zhihu_username:     lucky-kang-life
+github_username:    lucky-kang
+jianshu_username:   luckykang
 
 
 
@@ -62,8 +62,8 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: 20b2373051fb1bd2f5cc                            #生成的clientID
   clientSecret: a334dc93589476e7e5ed7f3b08757e7866316888    #生成的clientSecret
-  repo: lk1583880553.github.io    #仓库名称
-  owner: lk1583880553    #github用户名
+  repo: lucky-kang.github.io    #仓库名称
+  owner: lucky-kang    #github用户名
   admin: 刘康
   distractionFreeMode: false #是否启用类似FB的阴影遮罩
 
@@ -97,11 +97,8 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "WY",
-        href: "http://zhengwuyang.com"
-    },{
-        title: "知乎·BY",
-        href: "http://www.zhihu.com/people/Mr康先生"
+        title: "听风来の博客",
+        href: "http://kanglucky.cn"
     },{
         title: "Vue",
         href: "https://cn.vuejs.org/"
